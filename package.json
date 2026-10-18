@@ -1,6 +1,6 @@
 {
   "name": "security-modeling",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Методы математического моделирования в кибербезопасности",
   "main": "index.js",
   "repository": "git@gitverse.ru:uvkuznetsov/2026-1--study--security-modeling.git",
@@ -10,5 +10,12 @@
     "commitizen": {
       "path": "cz-customizable"
     }
+  },
+  "scripts": {
+    "changelog": "standard-changelog --config changelog.config.mjs"
+  },
+  "devDependencies": {
+    "conventional-changelog-angular": "^9.2.1",
+    "standard-changelog": "^8.1.0"
   }
 }
