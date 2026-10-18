@@ -184,6 +184,7 @@ summary_filename = datadir(
     "summary_λ_values.jld2"
 )
 
+mkpath(dirname(summary_filename))
 @save summary_filename λ_values summary
 
 println("Сводные данные сохранены в $summary_filename")

@@ -1,10 +1,14 @@
 \usepackage{indentfirst}
 \usepackage{float}
+% JuliaMono does not contain Cyrillic glyphs. Use a Unicode monospaced
+% font for code listings so Russian text is not replaced with U+FFFF.
+\usepackage{fontspec}
 \floatplacement{figure}{H}
 \IfFileExists{plex-otf.sty}{
   %% Full TeXlive
   \usepackage[
     % math,
+    mono=false,
     RM={Scale=0.94},SS={Scale=0.94},SScon={Scale=0.94},TT={Scale=MatchLowercase,FakeStretch=0.9},
     DefaultFeatures={Ligatures=Common}
   ]{plex-otf}
@@ -13,3 +17,7 @@
   %% TinyTeX
   \usepackage{libertine}
 }
+% plex-otf resets the typewriter font to IBMPlexMono, which lacks Cyrillic.
+% Set the code font after loading it.
+\setmonofont{PT Mono}
+
