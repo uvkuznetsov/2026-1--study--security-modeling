@@ -1,3 +1,13 @@
+# [3.0.0](https://gitverse.ru/uvkuznetsov/2026-1--study--security-modeling/compare/v2.0.0...v3.0.0) (2026-10-18)
+
+### Features
+
+* **lab:** add lab03 code ([af27e5f](https://gitverse.ru/uvkuznetsov/2026-1--study--security-modeling/commits/af27e5fca614b54dbed9bd3fb854643220d97029))
+
+### Documentation
+
+* **lab:** lab03 report \& presentation ([078b93e](https://gitverse.ru/uvkuznetsov/2026-1--study--security-modeling/commits/078b93e91cceebaf8c802f8c5ac6101a409db5e4))
+
 # [2.0.0](https://gitverse.ru/uvkuznetsov/2026-1--study--security-modeling/compare/v1.1.0...v2.0.0) (2026-10-18)
 
 ### Features
