@@ -1,3 +1,17 @@
+# [4.0.0](https://gitverse.ru/uvkuznetsov/2026-1--study--security-modeling/compare/v3.0.0...v4.0.0) (2026-10-19)
+
+### Features
+
+* **lab:** add lab04 code ([1d361dd](https://gitverse.ru/uvkuznetsov/2026-1--study--security-modeling/commits/1d361ddeaff5326a7979f2d58b5a676bd8251812))
+
+### Chores
+
+* **main:** add some paths to gitignore ([210ffca](https://gitverse.ru/uvkuznetsov/2026-1--study--security-modeling/commits/210ffca24e50ff577e4eddf588523a35820835b8))
+
+### Documentation
+
+* **lab:** lab04 report \& presentation ([0800f59](https://gitverse.ru/uvkuznetsov/2026-1--study--security-modeling/commits/0800f59845e8f13205aed21a3af50c34c1189c0f))
+
 # [3.0.0](https://gitverse.ru/uvkuznetsov/2026-1--study--security-modeling/compare/v2.0.0...v3.0.0) (2026-10-18)
 
 ### Features
