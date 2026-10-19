@@ -6,9 +6,11 @@ standalone: true
 self-contained: true
 
 ## Julia support
-# engine: julia
-# julia:
-#   exeflags: ["--project=../project"]
+engine: julia
+julia:
+  exeflags: ["--project=../project"]
+execute:
+  fig-format: png
 
 ## Generic options
 lang: ru-RU
